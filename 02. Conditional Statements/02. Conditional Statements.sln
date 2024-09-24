@@ -3,37 +3,47 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Marks", "01Marks\01Marks.csproj", "{1CD5C425-1A60-4708-8C06-E9B03DA213B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01Marks", "01Marks\01Marks.csproj", "{1CD5C425-1A60-4708-8C06-E9B03DA213B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02LargerNumber", "02LargerNumber\02LargerNumber.csproj", "{CE26FF74-7EEC-4B73-852B-EB22F6576912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02LargerNumber", "02LargerNumber\02LargerNumber.csproj", "{CE26FF74-7EEC-4B73-852B-EB22F6576912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03NumberFrom0To9WithWords", "03NumberFrom0To9WithWords\03NumberFrom0To9WithWords.csproj", "{0A419D2F-BDDA-4AB8-A130-55B2B02D1650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03NumberFrom0To9WithWords", "03NumberFrom0To9WithWords\03NumberFrom0To9WithWords.csproj", "{0A419D2F-BDDA-4AB8-A130-55B2B02D1650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04FaceOfFigures", "04FaceOfFigures\04FaceOfFigures.csproj", "{37A7CD58-EB9E-4AB7-AB9A-D851E23673F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04FaceOfFigures", "04FaceOfFigures\04FaceOfFigures.csproj", "{37A7CD58-EB9E-4AB7-AB9A-D851E23673F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05DayOfTheWeek", "05DayOfTheWeek\05DayOfTheWeek.csproj", "{6B814F5B-01C1-4C82-B1EB-2C8A723FFEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05DayOfTheWeek", "05DayOfTheWeek\05DayOfTheWeek.csproj", "{6B814F5B-01C1-4C82-B1EB-2C8A723FFEC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06EvenOrOdd", "06EvenOrOdd\06EvenOrOdd.csproj", "{B2F00971-548F-4DB4-A470-459CA8B04AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06EvenOrOdd", "06EvenOrOdd\06EvenOrOdd.csproj", "{B2F00971-548F-4DB4-A470-459CA8B04AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Speed", "07Speed\07Speed.csproj", "{1627C03C-0412-49F5-8050-EE7D30B5E863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07Speed", "07Speed\07Speed.csproj", "{1627C03C-0412-49F5-8050-EE7D30B5E863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08AlarmAfter15Minutes", "08AlarmAfter15Minutes\08AlarmAfter15Minutes.csproj", "{8DD999E4-3CF2-43FB-B6EF-610EBD1E3D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08AlarmAfter15Minutes", "08AlarmAfter15Minutes\08AlarmAfter15Minutes.csproj", "{8DD999E4-3CF2-43FB-B6EF-610EBD1E3D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09AddressByAgeAndGender", "09AddressByAgeAndGender\09AddressByAgeAndGender.csproj", "{38B4569C-4AE9-48E8-A248-5219C2C0C21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09AddressByAgeAndGender", "09AddressByAgeAndGender\09AddressByAgeAndGender.csproj", "{38B4569C-4AE9-48E8-A248-5219C2C0C21F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10Grocery", "10Grocery\10Grocery.csproj", "{54F90641-7C43-4D66-A682-7608A2694A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10Grocery", "10Grocery\10Grocery.csproj", "{54F90641-7C43-4D66-A682-7608A2694A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11NumberInTheRange", "11NumberInTheRange\11NumberInTheRange.csproj", "{539437A2-F530-40CA-A699-E2DCC8CBAF75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11NumberInTheRange", "11NumberInTheRange\11NumberInTheRange.csproj", "{539437A2-F530-40CA-A699-E2DCC8CBAF75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12SimpleCalculator", "12SimpleCalculator\12SimpleCalculator.csproj", "{713327BD-1CB5-4C06-AB2F-E024F52520FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12SimpleCalculator", "12SimpleCalculator\12SimpleCalculator.csproj", "{713327BD-1CB5-4C06-AB2F-E024F52520FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13VegetableMarket", "13VegetableMarket\13VegetableMarket.csproj", "{A0D6214E-34AD-4E33-B6A4-0E06A48D57BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13VegetableMarket", "13VegetableMarket\13VegetableMarket.csproj", "{A0D6214E-34AD-4E33-B6A4-0E06A48D57BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14Holiday", "14Holiday\14Holiday.csproj", "{21ED9710-1DB8-44C3-BA94-5FC7B8F95F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14Holiday", "14Holiday\14Holiday.csproj", "{21ED9710-1DB8-44C3-BA94-5FC7B8F95F25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15MakeupShop", "15MakeupShop\15MakeupShop.csproj", "{1B7F53DD-5426-4EA4-99D7-43A342151EB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15MakeupShop", "15MakeupShop\15MakeupShop.csproj", "{1B7F53DD-5426-4EA4-99D7-43A342151EB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16AtSea", "16AtSea\16AtSea.csproj", "{06D45740-29CB-4C2D-AD9F-D8355F9037B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16AtSea", "16AtSea\16AtSea.csproj", "{06D45740-29CB-4C2D-AD9F-D8355F9037B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17GradeCalculator", "17GradeCalculator\17GradeCalculator.csproj", "{AA6A39C7-0FC7-48E6-A394-C987F9104B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18LeapYearChecker", "18LeapYearChecker\18LeapYearChecker.csproj", "{08948FE1-8B52-474A-BEDB-284730D36F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19MovieTicketPrice", "19MovieTicketPrice\19MovieTicketPrice.csproj", "{885A8AD7-A215-41FD-BBD3-309177204B4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20DaysInAMonth", "20DaysInAMonth\20DaysInAMonth.csproj", "{468FAFDF-CC14-43AC-A00D-10AD07FA3514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21UniversityAdmissions", "21UniversityAdmissions\21UniversityAdmissions.csproj", "{ACF4A9AE-7E0C-4C0E-8B97-4A5B42506A73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +115,26 @@ Global
 		{06D45740-29CB-4C2D-AD9F-D8355F9037B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06D45740-29CB-4C2D-AD9F-D8355F9037B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D45740-29CB-4C2D-AD9F-D8355F9037B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6A39C7-0FC7-48E6-A394-C987F9104B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6A39C7-0FC7-48E6-A394-C987F9104B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6A39C7-0FC7-48E6-A394-C987F9104B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6A39C7-0FC7-48E6-A394-C987F9104B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08948FE1-8B52-474A-BEDB-284730D36F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08948FE1-8B52-474A-BEDB-284730D36F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08948FE1-8B52-474A-BEDB-284730D36F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08948FE1-8B52-474A-BEDB-284730D36F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885A8AD7-A215-41FD-BBD3-309177204B4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885A8AD7-A215-41FD-BBD3-309177204B4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885A8AD7-A215-41FD-BBD3-309177204B4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885A8AD7-A215-41FD-BBD3-309177204B4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468FAFDF-CC14-43AC-A00D-10AD07FA3514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468FAFDF-CC14-43AC-A00D-10AD07FA3514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468FAFDF-CC14-43AC-A00D-10AD07FA3514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468FAFDF-CC14-43AC-A00D-10AD07FA3514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF4A9AE-7E0C-4C0E-8B97-4A5B42506A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF4A9AE-7E0C-4C0E-8B97-4A5B42506A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF4A9AE-7E0C-4C0E-8B97-4A5B42506A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF4A9AE-7E0C-4C0E-8B97-4A5B42506A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
