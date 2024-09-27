@@ -3,39 +3,45 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01NumbersFrom0To100", "01NumbersFrom0To100\01NumbersFrom0To100.csproj", "{0204AE03-9045-400F-AE7B-4F06B336232E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01NumbersFrom0To100", "01NumbersFrom0To100\01NumbersFrom0To100.csproj", "{0204AE03-9045-400F-AE7B-4F06B336232E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02NumbersNTo0InReverseOrder", "02NumbersNTo0InReverseOrder\02NumbersNTo0InReverseOrder.csproj", "{5C3773C9-03A4-4E89-A52C-7B074BA6F0C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02NumbersNTo0InReverseOrder", "02NumbersNTo0InReverseOrder\02NumbersNTo0InReverseOrder.csproj", "{5C3773C9-03A4-4E89-A52C-7B074BA6F0C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Numbers1ToNThrough2", "03Numbers1ToNThrough2\03Numbers1ToNThrough2.csproj", "{715AF568-7829-4308-979E-118CF9B30F64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03Numbers1ToNThrough2", "03Numbers1ToNThrough2\03Numbers1ToNThrough2.csproj", "{715AF568-7829-4308-979E-118CF9B30F64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Numbers1ToNThroughM", "04Numbers1ToNThroughM\04Numbers1ToNThroughM.csproj", "{577833AB-0117-477F-9CEA-4EEA72A63FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04Numbers1ToNThroughM", "04Numbers1ToNThroughM\04Numbers1ToNThroughM.csproj", "{577833AB-0117-477F-9CEA-4EEA72A63FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05LettersInAWord", "05LettersInAWord\05LettersInAWord.csproj", "{F436174D-7A90-460A-8C05-6929B857CF81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05LettersInAWord", "05LettersInAWord\05LettersInAWord.csproj", "{F436174D-7A90-460A-8C05-6929B857CF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06SumOfVowels", "06SumOfVowels\06SumOfVowels.csproj", "{90A0916D-218C-4DDF-963C-9CA562F1A217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06SumOfVowels", "06SumOfVowels\06SumOfVowels.csproj", "{90A0916D-218C-4DDF-963C-9CA562F1A217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07Clock", "07Clock\07Clock.csproj", "{898DF440-2BE0-4235-A0A6-1D826EC079F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07Clock", "07Clock\07Clock.csproj", "{898DF440-2BE0-4235-A0A6-1D826EC079F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08MultiplicationTable", "08MultiplicationTable\08MultiplicationTable.csproj", "{2C2A1FD7-413C-4212-999A-9BB87872F978}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08MultiplicationTable", "08MultiplicationTable\08MultiplicationTable.csproj", "{2C2A1FD7-413C-4212-999A-9BB87872F978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09SumOfEvenNumbers", "9SumOfEvenNumbers\09SumOfEvenNumbers.csproj", "{F4B0FBCC-00C7-41F1-8C02-8B8297A9E2A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09SumOfEvenNumbers", "9SumOfEvenNumbers\09SumOfEvenNumbers.csproj", "{F4B0FBCC-00C7-41F1-8C02-8B8297A9E2A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10FactorialCalculation", "10FactorialCalculation\10FactorialCalculation.csproj", "{A3765A6E-405E-432A-9822-DC8E0C0CBDB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10FactorialCalculation", "10FactorialCalculation\10FactorialCalculation.csproj", "{A3765A6E-405E-432A-9822-DC8E0C0CBDB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11NumberReversal", "11NumberReversal\11NumberReversal.csproj", "{C977016D-B154-4C30-BBB9-A7C8726F08C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11NumberReversal", "11NumberReversal\11NumberReversal.csproj", "{C977016D-B154-4C30-BBB9-A7C8726F08C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12PseudoFibonacciSequenceSum", "12PseudoFibonacciSequenceSum\12PseudoFibonacciSequenceSum.csproj", "{0082A146-8966-421C-A7C2-B322EBA8D330}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12PseudoFibonacciSequenceSum", "12PseudoFibonacciSequenceSum\12PseudoFibonacciSequenceSum.csproj", "{0082A146-8966-421C-A7C2-B322EBA8D330}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13PalindromeCheck", "13PalindromeCheck\13PalindromeCheck.csproj", "{AE4100F1-2162-46B9-9325-ED0FEA3BA1F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13PalindromeCheck", "13PalindromeCheck\13PalindromeCheck.csproj", "{AE4100F1-2162-46B9-9325-ED0FEA3BA1F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14ArmstrongNumberCheck", "14ArmstrongNumberCheck\14ArmstrongNumberCheck.csproj", "{740B78BA-6A39-4436-BC88-B33F5C0DBBC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14ArmstrongNumberCheck", "14ArmstrongNumberCheck\14ArmstrongNumberCheck.csproj", "{740B78BA-6A39-4436-BC88-B33F5C0DBBC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15CollatzConjecture", "15CollatzConjecture\15CollatzConjecture.csproj", "{1A2C03FE-877D-46D3-93AB-16163802A2FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15CollatzConjecture", "15CollatzConjecture\15CollatzConjecture.csproj", "{1A2C03FE-877D-46D3-93AB-16163802A2FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16HollowRectanglePattern", "16HollowRectanglePattern\16HollowRectanglePattern.csproj", "{6350E44E-3E7A-47A2-8550-4CF981725EFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16HollowRectanglePattern", "16HollowRectanglePattern\16HollowRectanglePattern.csproj", "{6350E44E-3E7A-47A2-8550-4CF981725EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17NewBuilding", "17NewBuilding\17NewBuilding.csproj", "{10AE676C-5B87-4866-A908-67A5B9705735}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17NewBuilding", "17NewBuilding\17NewBuilding.csproj", "{10AE676C-5B87-4866-A908-67A5B9705735}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18MagicNumber", "18MagicNumber\18MagicNumber.csproj", "{7F88248F-B808-40FC-A7F2-9253D89EC18E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19PadawanEquipment", "19PadawanEquipment\19PadawanEquipment.csproj", "{DD2E957D-B03A-422E-AE17-E069CD500CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20RageExpenses", "20RageExpenses\20RageExpenses.csproj", "{B3875310-C29E-48AA-A012-3E929DBC0C26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{10AE676C-5B87-4866-A908-67A5B9705735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10AE676C-5B87-4866-A908-67A5B9705735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10AE676C-5B87-4866-A908-67A5B9705735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F88248F-B808-40FC-A7F2-9253D89EC18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F88248F-B808-40FC-A7F2-9253D89EC18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F88248F-B808-40FC-A7F2-9253D89EC18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F88248F-B808-40FC-A7F2-9253D89EC18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2E957D-B03A-422E-AE17-E069CD500CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2E957D-B03A-422E-AE17-E069CD500CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2E957D-B03A-422E-AE17-E069CD500CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2E957D-B03A-422E-AE17-E069CD500CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3875310-C29E-48AA-A012-3E929DBC0C26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3875310-C29E-48AA-A012-3E929DBC0C26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3875310-C29E-48AA-A012-3E929DBC0C26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3875310-C29E-48AA-A012-3E929DBC0C26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
