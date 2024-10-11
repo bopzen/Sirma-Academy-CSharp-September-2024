@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10MaximumElement", "10Maxim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11BasicQueueOperations", "11BasicQueueOperations\11BasicQueueOperations.csproj", "{5190FE84-5B67-4AB9-9124-757C400C3F49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12TaskScheduler", "12TaskScheduler\12TaskScheduler.csproj", "{FDF5183C-95AE-4143-B019-A93FF1D52EEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{5190FE84-5B67-4AB9-9124-757C400C3F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5190FE84-5B67-4AB9-9124-757C400C3F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5190FE84-5B67-4AB9-9124-757C400C3F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
