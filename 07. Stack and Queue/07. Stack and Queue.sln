@@ -17,15 +17,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06MatchingBrackets", "06Mat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07PrinterQueue", "07PrinterQueue\07PrinterQueue.csproj", "{03A45F39-D928-467C-B409-AE3371967F3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08BalancedParentheses", "08BalancedParentheses\08BalancedParentheses.csproj", "{5961B15F-37F4-4DBD-9E82-5FB79206E945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08BalancedParentheses", "08BalancedParentheses\08BalancedParentheses.csproj", "{5961B15F-37F4-4DBD-9E82-5FB79206E945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09HotPotato", "09HotPotato\09HotPotato.csproj", "{9A3C9D73-18B5-4FF2-8157-3B0A0F8C9B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09HotPotato", "09HotPotato\09HotPotato.csproj", "{9A3C9D73-18B5-4FF2-8157-3B0A0F8C9B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10MaximumElement", "10MaximumElement\10MaximumElement.csproj", "{DA5CA41D-A31D-403D-9FEA-4958AC5D0044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10MaximumElement", "10MaximumElement\10MaximumElement.csproj", "{DA5CA41D-A31D-403D-9FEA-4958AC5D0044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11BasicQueueOperations", "11BasicQueueOperations\11BasicQueueOperations.csproj", "{5190FE84-5B67-4AB9-9124-757C400C3F49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11BasicQueueOperations", "11BasicQueueOperations\11BasicQueueOperations.csproj", "{5190FE84-5B67-4AB9-9124-757C400C3F49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12TaskScheduler", "12TaskScheduler\12TaskScheduler.csproj", "{FDF5183C-95AE-4143-B019-A93FF1D52EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12TaskScheduler", "12TaskScheduler\12TaskScheduler.csproj", "{FDF5183C-95AE-4143-B019-A93FF1D52EEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13DocumentEditor", "13DocumentEditor\13DocumentEditor.csproj", "{0F076EE8-03A6-4046-A160-66692F4DC759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14RecursiveFibonacci", "14RecursiveFibonacci\14RecursiveFibonacci.csproj", "{57761DFD-2228-4AFC-97CE-5564774F185C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15Factorio", "15Factorio\15Factorio.csproj", "{34A723B8-B6FD-43A8-AF8A-24B39172E15A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDF5183C-95AE-4143-B019-A93FF1D52EEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F076EE8-03A6-4046-A160-66692F4DC759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F076EE8-03A6-4046-A160-66692F4DC759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F076EE8-03A6-4046-A160-66692F4DC759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F076EE8-03A6-4046-A160-66692F4DC759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57761DFD-2228-4AFC-97CE-5564774F185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57761DFD-2228-4AFC-97CE-5564774F185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57761DFD-2228-4AFC-97CE-5564774F185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57761DFD-2228-4AFC-97CE-5564774F185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34A723B8-B6FD-43A8-AF8A-24B39172E15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34A723B8-B6FD-43A8-AF8A-24B39172E15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34A723B8-B6FD-43A8-AF8A-24B39172E15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34A723B8-B6FD-43A8-AF8A-24B39172E15A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
