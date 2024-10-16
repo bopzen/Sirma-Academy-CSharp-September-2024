@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19CheckerboardPattern", "19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20MaximalSum", "20MaximalSum\20MaximalSum.csproj", "{3F27E9FE-DD9E-4326-9611-13B762D247A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17MagicSquareChecker", "17MagicSquareChecker\17MagicSquareChecker.csproj", "{7680EE50-F56B-4CA1-A7AB-336F3B06643A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18SpiralMatrixTraversal", "18SpiralMatrixTraversal\18SpiralMatrixTraversal.csproj", "{ADC31A95-09C3-40BA-90E6-1F0D6DF3DA20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,14 +113,6 @@ Global
 		{1537E225-8315-470D-9F25-C6D0D499C047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1537E225-8315-470D-9F25-C6D0D499C047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1537E225-8315-470D-9F25-C6D0D499C047}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5A053076-94C2-4484-AF52-1EDC636149F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5A053076-94C2-4484-AF52-1EDC636149F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5A053076-94C2-4484-AF52-1EDC636149F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5A053076-94C2-4484-AF52-1EDC636149F5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F27E9FE-DD9E-4326-9611-13B762D247A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F27E9FE-DD9E-4326-9611-13B762D247A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F27E9FE-DD9E-4326-9611-13B762D247A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F27E9FE-DD9E-4326-9611-13B762D247A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
