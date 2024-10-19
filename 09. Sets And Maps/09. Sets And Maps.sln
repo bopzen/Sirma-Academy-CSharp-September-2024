@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CountSymbols", "03CountSy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Phonebook", "04Phonebook\04Phonebook.csproj", "{A97C686D-506E-420D-9858-6A653DD109B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05HandsOfCards", "05HandsOfCards\05HandsOfCards.csproj", "{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06PopulationCounter", "06PopulationCounter\06PopulationCounter.csproj", "{BC415316-FFB8-4B1E-9036-8F2927318173}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A97C686D-506E-420D-9858-6A653DD109B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A97C686D-506E-420D-9858-6A653DD109B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A97C686D-506E-420D-9858-6A653DD109B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC415316-FFB8-4B1E-9036-8F2927318173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC415316-FFB8-4B1E-9036-8F2927318173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC415316-FFB8-4B1E-9036-8F2927318173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC415316-FFB8-4B1E-9036-8F2927318173}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
