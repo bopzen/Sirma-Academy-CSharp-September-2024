@@ -15,11 +15,22 @@
                 string city = input[2];
                 if (!data.ContainsKey(continent)) 
                 {
-                    data[continent] = new Dictionary<string, List<string>>();
+                    data[continent] = new Dictionary<string, List<string>>();               
                 }
-                data[continent] = country
+                if (!data[continent].ContainsKey(country))
+                {
+                    data[continent].Add(country, new List<string>());
+                }
+                data[continent][country].Add(city);
             }
-
+            foreach (var kvp in data)
+            {
+                Console.WriteLine(kvp.Key + ":");
+                foreach (var kvp2 in kvp.Value)
+                {
+                    Console.WriteLine($" {kvp2.Key} -> {string.Join(", ", kvp2.Value)}");
+                }
+            }
         }
     }
 }
