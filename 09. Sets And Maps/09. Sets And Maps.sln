@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13ParkingSystem", "13Parkin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14StudentAcademy", "14StudentAcademy\14StudentAcademy.csproj", "{FA1351B4-473A-47AD-9671-71E323A17FA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15CompanyUsers", "15CompanyUsers\15CompanyUsers.csproj", "{43DC112D-97B5-4C59-ACBD-367F0746FC69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{FA1351B4-473A-47AD-9671-71E323A17FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1351B4-473A-47AD-9671-71E323A17FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1351B4-473A-47AD-9671-71E323A17FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
