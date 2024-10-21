@@ -5,33 +5,35 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01CountRealNumbers", "01CountRealNumbers\01CountRealNumbers.csproj", "{E67E749E-A9F2-4B25-96CA-F6A671DB9673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02AverageStudentsGrades", "02AverageStudentsGrades\02AverageStudentsGrades.csproj", "{47EBC363-5826-46B1-92B2-F3EF552E161D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02AverageStudentsGrades", "02AverageStudentsGrades\02AverageStudentsGrades.csproj", "{47EBC363-5826-46B1-92B2-F3EF552E161D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03CountSymbols", "03CountSymbols\03CountSymbols.csproj", "{AC36A099-23D2-474A-B6EC-5A31B6571542}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03CountSymbols", "03CountSymbols\03CountSymbols.csproj", "{AC36A099-23D2-474A-B6EC-5A31B6571542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04Phonebook", "04Phonebook\04Phonebook.csproj", "{A97C686D-506E-420D-9858-6A653DD109B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04Phonebook", "04Phonebook\04Phonebook.csproj", "{A97C686D-506E-420D-9858-6A653DD109B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05HandsOfCards", "05HandsOfCards\05HandsOfCards.csproj", "{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05HandsOfCards", "05HandsOfCards\05HandsOfCards.csproj", "{C1BC27E4-166B-4B8C-B58F-8D3CB0054DDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06PopulationCounter", "06PopulationCounter\06PopulationCounter.csproj", "{BC415316-FFB8-4B1E-9036-8F2927318173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06PopulationCounter", "06PopulationCounter\06PopulationCounter.csproj", "{BC415316-FFB8-4B1E-9036-8F2927318173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07WordSynonyms", "07WordSynonyms\07WordSynonyms.csproj", "{336AADB5-FA7B-456D-8557-C3C11BA78837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07WordSynonyms", "07WordSynonyms\07WordSynonyms.csproj", "{336AADB5-FA7B-456D-8557-C3C11BA78837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08OddOccurrences", "08OddOccurrences\08OddOccurrences.csproj", "{33CD9314-0472-429E-90DA-E7217000024A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08OddOccurrences", "08OddOccurrences\08OddOccurrences.csproj", "{33CD9314-0472-429E-90DA-E7217000024A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09WordFilter", "09WordFilter\09WordFilter.csproj", "{95494A66-955D-41C5-BBC5-D91FA7F4AC06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09WordFilter", "09WordFilter\09WordFilter.csproj", "{95494A66-955D-41C5-BBC5-D91FA7F4AC06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10CitiesByContinentAndCountry", "10CitiesByContinentAndCountry\10CitiesByContinentAndCountry.csproj", "{7A1412CA-79B3-4702-8B16-369C70064CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10CitiesByContinentAndCountry", "10CitiesByContinentAndCountry\10CitiesByContinentAndCountry.csproj", "{7A1412CA-79B3-4702-8B16-369C70064CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Largest3Numbers", "11Largest3Numbers\11Largest3Numbers.csproj", "{F95D9E17-AB04-47EF-AD2F-4CE3A11EB32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11Largest3Numbers", "11Largest3Numbers\11Largest3Numbers.csproj", "{F95D9E17-AB04-47EF-AD2F-4CE3A11EB32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12CountCharsInAString", "12CountCharsInAString\12CountCharsInAString.csproj", "{B7D01623-6D55-44D0-AC96-56CD7B6A137D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12CountCharsInAString", "12CountCharsInAString\12CountCharsInAString.csproj", "{B7D01623-6D55-44D0-AC96-56CD7B6A137D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13ParkingSystem", "13ParkingSystem\13ParkingSystem.csproj", "{CF3885FE-6794-4025-B107-3F541A035A47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13ParkingSystem", "13ParkingSystem\13ParkingSystem.csproj", "{CF3885FE-6794-4025-B107-3F541A035A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14StudentAcademy", "14StudentAcademy\14StudentAcademy.csproj", "{FA1351B4-473A-47AD-9671-71E323A17FA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14StudentAcademy", "14StudentAcademy\14StudentAcademy.csproj", "{FA1351B4-473A-47AD-9671-71E323A17FA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15CompanyUsers", "15CompanyUsers\15CompanyUsers.csproj", "{43DC112D-97B5-4C59-ACBD-367F0746FC69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15CompanyUsers", "15CompanyUsers\15CompanyUsers.csproj", "{43DC112D-97B5-4C59-ACBD-367F0746FC69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16ParkingLot", "16ParkingLot\16ParkingLot.csproj", "{A51219D6-6F3E-43FD-A328-C5CB117EBBDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DC112D-97B5-4C59-ACBD-367F0746FC69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51219D6-6F3E-43FD-A328-C5CB117EBBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51219D6-6F3E-43FD-A328-C5CB117EBBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51219D6-6F3E-43FD-A328-C5CB117EBBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51219D6-6F3E-43FD-A328-C5CB117EBBDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
