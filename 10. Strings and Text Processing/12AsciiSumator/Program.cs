@@ -13,7 +13,7 @@
 
 			foreach (var symbol in text)
 			{
-				if ((int)symbol > Math.Min(indexOne, indexTwo) || (int)symbol < Math.Max(indexOne, indexTwo))
+				if ((int)symbol > Math.Min(indexOne, indexTwo) && (int)symbol < Math.Max(indexOne, indexTwo))
 				{
 					asciiSum += (int)symbol;
 				}
