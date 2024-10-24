@@ -27,11 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11ExtractPersonInformation"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12AsciiSumator", "12AsciiSumator\12AsciiSumator.csproj", "{AF412FAF-CA21-4D42-9C79-C9C5117E689C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13MorseCodeTranslator", "13MorseCodeTranslator\13MorseCodeTranslator.csproj", "{C7C88BFB-F82A-424D-A0D5-1A99718856E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13MorseCodeTranslator", "13MorseCodeTranslator\13MorseCodeTranslator.csproj", "{C7C88BFB-F82A-424D-A0D5-1A99718856E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14HTML", "14HTML\14HTML.csproj", "{5E123CF4-5A5C-47F7-82DE-5F78ECF3FAB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14HTML", "14HTML\14HTML.csproj", "{5E123CF4-5A5C-47F7-82DE-5F78ECF3FAB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15Letter", "15Letter\15Letter.csproj", "{235E9C95-ACCC-4E6E-8057-15CE47ADF721}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15Letter", "15Letter\15Letter.csproj", "{235E9C95-ACCC-4E6E-8057-15CE47ADF721}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16MatchFullName", "16MatchFullName\16MatchFullName.csproj", "{31D033EF-EE05-48FC-AE6E-AB5735AF0194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17MatchPhoneNumber", "17MatchPhoneNumber\17MatchPhoneNumber.csproj", "{B74D292A-C2FC-405D-8450-A0335E6AEF5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{235E9C95-ACCC-4E6E-8057-15CE47ADF721}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{235E9C95-ACCC-4E6E-8057-15CE47ADF721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{235E9C95-ACCC-4E6E-8057-15CE47ADF721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D033EF-EE05-48FC-AE6E-AB5735AF0194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D033EF-EE05-48FC-AE6E-AB5735AF0194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D033EF-EE05-48FC-AE6E-AB5735AF0194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D033EF-EE05-48FC-AE6E-AB5735AF0194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
