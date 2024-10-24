@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16MatchFullName", "16MatchF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17MatchPhoneNumber", "17MatchPhoneNumber\17MatchPhoneNumber.csproj", "{B74D292A-C2FC-405D-8450-A0335E6AEF5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18PascalCaseSplitter", "18PascalCaseSplitter\18PascalCaseSplitter.csproj", "{153F46D1-787C-4754-B750-50A253C50F34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19MatchDates", "19MatchDates\19MatchDates.csproj", "{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B74D292A-C2FC-405D-8450-A0335E6AEF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153F46D1-787C-4754-B750-50A253C50F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153F46D1-787C-4754-B750-50A253C50F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153F46D1-787C-4754-B750-50A253C50F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153F46D1-787C-4754-B750-50A253C50F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
