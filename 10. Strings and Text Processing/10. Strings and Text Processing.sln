@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18PascalCaseSplitter", "18P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19MatchDates", "19MatchDates\19MatchDates.csproj", "{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20StarBattlesEnigma", "20StarBattlesEnigma\20StarBattlesEnigma.csproj", "{68D4BADA-682E-4184-A070-84E085B1B73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618E1E96-1DF8-44B0-86C6-E9183BBE6D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68D4BADA-682E-4184-A070-84E085B1B73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D4BADA-682E-4184-A070-84E085B1B73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D4BADA-682E-4184-A070-84E085B1B73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D4BADA-682E-4184-A070-84E085B1B73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
