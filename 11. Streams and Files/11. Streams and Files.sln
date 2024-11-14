@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08MergeLinesFromTwoFiles", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09CalculateDirectorySize", "09CalculateDirectorySize\09CalculateDirectorySize.csproj", "{BE470DEF-3C74-404B-961C-B45A1F26EBCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10CopyFileContent", "10CopyFileContent\10CopyFileContent.csproj", "{60100CEC-732C-4562-83E0-DE4E56F7B73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11SerializeAndDeserializeMap", "11SerializeAndDeserializeMap\11SerializeAndDeserializeMap.csproj", "{4E488FDE-526D-4748-8254-AA507D5501B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{BE470DEF-3C74-404B-961C-B45A1F26EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE470DEF-3C74-404B-961C-B45A1F26EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE470DEF-3C74-404B-961C-B45A1F26EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60100CEC-732C-4562-83E0-DE4E56F7B73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60100CEC-732C-4562-83E0-DE4E56F7B73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60100CEC-732C-4562-83E0-DE4E56F7B73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60100CEC-732C-4562-83E0-DE4E56F7B73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E488FDE-526D-4748-8254-AA507D5501B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E488FDE-526D-4748-8254-AA507D5501B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E488FDE-526D-4748-8254-AA507D5501B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E488FDE-526D-4748-8254-AA507D5501B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
