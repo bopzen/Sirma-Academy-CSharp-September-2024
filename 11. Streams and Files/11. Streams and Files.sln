@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01WordLengths", "01WordLengths\01WordLengths.csproj", "{0163AD5A-63C5-4F6F-B748-AA998D67A12B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01WordLengths", "01WordLengths\01WordLengths.csproj", "{0163AD5A-63C5-4F6F-B748-AA998D67A12B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02CharacterFrequency", "02CharacterFrequency\02CharacterFrequency.csproj", "{56092D12-092B-4B90-B28E-54259CBDFB7A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02CharacterFrequency", "02CharacterFrequency\02CharacterFrequency.csproj", "{56092D12-092B-4B90-B28E-54259CBDFB7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ReplaceWord", "03ReplaceWord\03ReplaceWord.csproj", "{634AE9D3-9B6D-4693-B877-624C9394C917}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04CountLinesWordsandCharacters", "04CountLinesWordsandCharacters\04CountLinesWordsandCharacters.csproj", "{0B0E86C1-A0B9-418C-B5F1-4B40A2A05BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05ExtractFile", "05ExtractFile\05ExtractFile.csproj", "{2CDB0414-FA64-45E8-BA03-D2E1167E995E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06ReverseLines", "06ReverseLines\06ReverseLines.csproj", "{14C9C9C5-CF42-4C54-9D2A-D80F47B45ED1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{0B0E86C1-A0B9-418C-B5F1-4B40A2A05BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B0E86C1-A0B9-418C-B5F1-4B40A2A05BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B0E86C1-A0B9-418C-B5F1-4B40A2A05BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDB0414-FA64-45E8-BA03-D2E1167E995E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDB0414-FA64-45E8-BA03-D2E1167E995E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDB0414-FA64-45E8-BA03-D2E1167E995E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDB0414-FA64-45E8-BA03-D2E1167E995E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C9C9C5-CF42-4C54-9D2A-D80F47B45ED1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C9C9C5-CF42-4C54-9D2A-D80F47B45ED1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C9C9C5-CF42-4C54-9D2A-D80F47B45ED1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C9C9C5-CF42-4C54-9D2A-D80F47B45ED1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
