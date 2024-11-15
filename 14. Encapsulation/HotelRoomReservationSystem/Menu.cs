@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HotelRoomReservationSystem.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,19 @@ namespace HotelRoomReservationSystem
 {
 	public class Menu
 	{
+        private static UserManager userManager = new UserManager();
+		private static User loggedInUser = null;
 
-		public static void MainMenu()
+        public static void MainMenu()
 		{
-			int command;
+            int command;
 			while (true)
 			{
 				Console.Clear();
+				if (loggedInUser != null)
+				{
+					Console.WriteLine($"Hello, {loggedInUser.Username}");
+				}
 				Console.WriteLine("Main Menu");
 				Console.WriteLine("1. Login/Register");
 				Console.WriteLine("2. View Profile");
@@ -27,7 +34,8 @@ namespace HotelRoomReservationSystem
 				if (!int.TryParse(Console.ReadLine(), out command))
 				{
 					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
-					Console.ReadKey();
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
 					continue;
 				}
 
@@ -79,7 +87,11 @@ namespace HotelRoomReservationSystem
 			while (true)
 			{
 				Console.Clear();
-				Console.WriteLine("Authentication Menu");
+                if (loggedInUser != null)
+                {
+                    Console.WriteLine($"Hello, {loggedInUser.Username}");
+                }
+                Console.WriteLine("Authentication Menu");
 				Console.WriteLine("1. Login");
 				Console.WriteLine("2. Register");
 				Console.WriteLine("0. Back");
@@ -87,8 +99,9 @@ namespace HotelRoomReservationSystem
 
 				if (!int.TryParse(Console.ReadLine(), out command))
 				{
-					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
-					Console.ReadKey();
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 2.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
 					continue;
 				}
 
@@ -100,14 +113,12 @@ namespace HotelRoomReservationSystem
 						}
 					case 1:
 						{
-							Console.Clear();
-							Console.WriteLine("Login Menu");
+							loggedInUser = userManager.LoginUser();
 						}
 						break;
 					case 2:
 						{
-							Console.Clear();
-							Console.WriteLine("Register Menu");
+							userManager.RegisterUser();
 						}
 						break;
 					default:
@@ -126,7 +137,11 @@ namespace HotelRoomReservationSystem
 			while (true)
 			{
 				Console.Clear();
-				Console.WriteLine("Profile Menu");
+                if (loggedInUser != null)
+                {
+                    Console.WriteLine($"Hello, {loggedInUser.Username}");
+                }
+                Console.WriteLine("Profile Menu");
 				Console.WriteLine("1. Details");
 				Console.WriteLine("2. History");
 				Console.WriteLine("0. Back");
@@ -134,8 +149,9 @@ namespace HotelRoomReservationSystem
 
 				if (!int.TryParse(Console.ReadLine(), out command))
 				{
-					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
-					Console.ReadKey();
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 2.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
 					continue;
 				}
 
@@ -171,7 +187,11 @@ namespace HotelRoomReservationSystem
 			while (true)
 			{
 				Console.Clear();
-				Console.WriteLine("View Rooms Menu");
+                if (loggedInUser != null)
+                {
+                    Console.WriteLine($"Hello, {loggedInUser.Username}");
+                }
+                Console.WriteLine("View Rooms Menu");
 				Console.WriteLine("1. Single Room");
 				Console.WriteLine("2. Double Room");
 				Console.WriteLine("3. Deluxe Room");
@@ -181,8 +201,9 @@ namespace HotelRoomReservationSystem
 
 				if (!int.TryParse(Console.ReadLine(), out command))
 				{
-					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
-					Console.ReadKey();
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 4.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
 					continue;
 				}
 
@@ -229,17 +250,29 @@ namespace HotelRoomReservationSystem
 		{
 			while (true)
 			{
+				int command;
 				Console.Clear();
-				Console.WriteLine("Make Reservation Menu");
+                if (loggedInUser != null)
+                {
+                    Console.WriteLine($"Hello, {loggedInUser.Username}");
+                }
+                Console.WriteLine("Make Reservation Menu");
 				Console.WriteLine("1. Single Room");
 				Console.WriteLine("2. Double Room");
 				Console.WriteLine("3. Deluxe Room");
 				Console.WriteLine("4. Suite");
 				Console.WriteLine("0. Back");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
 
-				switch (command)
+                if (!int.TryParse(Console.ReadLine(), out command))
+                {
+                    Console.WriteLine("Invalid input! Please enter a number between 0 and 4.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
+                    continue;
+                }
+
+                switch (command)
 				{
 					case 0:
 						{
@@ -282,17 +315,30 @@ namespace HotelRoomReservationSystem
 		{
 			while (true)
 			{
+				int command;
+
 				Console.Clear();
-				Console.WriteLine("Cancel Reservation Menu");
+                if (loggedInUser != null)
+                {
+                    Console.WriteLine($"Hello, {loggedInUser.Username}");
+                }
+                Console.WriteLine("Cancel Reservation Menu");
 				Console.WriteLine("1. Single Room");
 				Console.WriteLine("2. Double Room");
 				Console.WriteLine("3. Deluxe Room");
 				Console.WriteLine("4. Suite");
 				Console.WriteLine("0. Back");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
 
-				switch (command)
+                if (!int.TryParse(Console.ReadLine(), out command))
+                {
+                    Console.WriteLine("Invalid input! Please enter a number between 0 and 4.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
+                    continue;
+                }
+
+                switch (command)
 				{
 					case 0:
 						{

@@ -1,4 +1,7 @@
-﻿namespace HotelRoomReservationSystem
+﻿using HotelRoomReservationSystem.Models;
+using System.Reflection.Metadata;
+
+namespace HotelRoomReservationSystem
 {
 	internal class Program
 	{
