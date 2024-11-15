@@ -11,6 +11,7 @@ namespace HotelRoomReservationSystem
 
 		public static void MainMenu()
 		{
+			int command;
 			while (true)
 			{
 				Console.Clear();
@@ -22,7 +23,13 @@ namespace HotelRoomReservationSystem
 				Console.WriteLine("5. Cancel Reservation");
 				Console.WriteLine("0. Exit");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
+
+				if (!int.TryParse(Console.ReadLine(), out command))
+				{
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
+					Console.ReadKey();
+					continue;
+				}
 
 				switch (command)
 				{
@@ -68,6 +75,7 @@ namespace HotelRoomReservationSystem
 
 		private static void AuthenticationMenu()
 		{
+			int command;
 			while (true)
 			{
 				Console.Clear();
@@ -76,7 +84,13 @@ namespace HotelRoomReservationSystem
 				Console.WriteLine("2. Register");
 				Console.WriteLine("0. Back");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
+
+				if (!int.TryParse(Console.ReadLine(), out command))
+				{
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
+					Console.ReadKey();
+					continue;
+				}
 
 				switch (command)
 				{
@@ -108,6 +122,7 @@ namespace HotelRoomReservationSystem
 
 		private static void ProfileMenu()
 		{
+			int command;
 			while (true)
 			{
 				Console.Clear();
@@ -116,7 +131,13 @@ namespace HotelRoomReservationSystem
 				Console.WriteLine("2. History");
 				Console.WriteLine("0. Back");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
+
+				if (!int.TryParse(Console.ReadLine(), out command))
+				{
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
+					Console.ReadKey();
+					continue;
+				}
 
 				switch (command)
 				{
@@ -146,6 +167,7 @@ namespace HotelRoomReservationSystem
 		}
 		private static void ViewRoomsMenu()
 		{
+			int command;
 			while (true)
 			{
 				Console.Clear();
@@ -156,7 +178,13 @@ namespace HotelRoomReservationSystem
 				Console.WriteLine("4. Suite");
 				Console.WriteLine("0. Back");
 				Console.Write("Choose an option: ");
-				int command = int.Parse(Console.ReadLine());
+
+				if (!int.TryParse(Console.ReadLine(), out command))
+				{
+					Console.WriteLine("Invalid input! Please enter a number between 0 and 5.");
+					Console.ReadKey();
+					continue;
+				}
 
 				switch (command)
 				{
