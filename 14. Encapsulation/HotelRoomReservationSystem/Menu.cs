@@ -118,7 +118,7 @@ namespace HotelRoomReservationSystem
 						break;
 					case 2:
 						{
-							userManager.RegisterUser();
+							loggedInUser = userManager.RegisterUser();
 						}
 						break;
 					default:
@@ -163,8 +163,7 @@ namespace HotelRoomReservationSystem
 						}
 					case 1:
 						{
-							Console.Clear();
-							Console.WriteLine("Profile Details Menu");
+							userManager.ShowProfileDetails(loggedInUser);
 						}
 						break;
 					case 2:

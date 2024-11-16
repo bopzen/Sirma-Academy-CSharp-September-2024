@@ -33,7 +33,7 @@ namespace HotelRoomReservationSystem
             File.WriteAllText(UserFilePath, jsonData);
         }
 
-        public void RegisterUser()
+        public User RegisterUser()
         {
             Console.Write("Enter username: ");
             string username = Console.ReadLine();
@@ -43,14 +43,16 @@ namespace HotelRoomReservationSystem
                 Console.WriteLine($"Username {username} already exists.");
                 Console.Write("Press any key to continue...");
                 Console.ReadKey();
-                return;
+                return null;
             }
 
             Console.Write("Enter password: ");
             string password = Console.ReadLine();
 
-            Users.Add(new User(username, password));
+            User newUser = new User(username, password);
+            Users.Add(newUser);
             SaveUsersToFile();
+            return newUser;
         }
 
         public User LoginUser()
@@ -75,6 +77,22 @@ namespace HotelRoomReservationSystem
                 Console.ReadKey();
                 return null;
             }
+        }
+
+        public void ShowProfileDetails(User user)
+        {
+            if (user != null)
+            {
+                Console.WriteLine($"Username: {user.Username}");
+            }
+            else
+            {
+                Console.WriteLine("You are not logged in.");
+            }
+
+            Console.Write("Press any key to continue...");
+            Console.ReadKey();
+
         }
     }
 }
