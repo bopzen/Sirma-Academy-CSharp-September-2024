@@ -1,0 +1,114 @@
+[
+  {
+    "RoomNumber": 101,
+    "Type": "Single Room",
+    "PricePerNight": 50.00,
+    "CancellationFee": 1.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 102,
+    "Type": "Double Room",
+    "PricePerNight": 60.00,
+    "CancellationFee": 1.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 103,
+    "Type": "Deluxe Room",
+    "PricePerNight": 80.00,
+    "CancellationFee": 2.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 104,
+    "Type": "Suite Room",
+    "PricePerNight": 100.00,
+    "CancellationFee": 2.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 201,
+    "Type": "Single Room",
+    "PricePerNight": 50.00,
+    "CancellationFee": 1.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 202,
+    "Type": "Double Room",
+    "PricePerNight": 60.00,
+    "CancellationFee": 1.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 203,
+    "Type": "Deluxe Room",
+    "PricePerNight": 80.00,
+    "CancellationFee": 2.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 204,
+    "Type": "Suite Room",
+    "PricePerNight": 100.00,
+    "CancellationFee": 2.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 301,
+    "Type": "Single Room",
+    "PricePerNight": 50.00,
+    "CancellationFee": 1.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 302,
+    "Type": "Double Room",
+    "PricePerNight": 60.00,
+    "CancellationFee": 1.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 303,
+    "Type": "Deluxe Room",
+    "PricePerNight": 80.00,
+    "CancellationFee": 2.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 304,
+    "Type": "Suite Room",
+    "PricePerNight": 100.00,
+    "CancellationFee": 2.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 401,
+    "Type": "Single Room",
+    "PricePerNight": 50.00,
+    "CancellationFee": 1.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 402,
+    "Type": "Double Room",
+    "PricePerNight": 60.00,
+    "CancellationFee": 1.50,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 403,
+    "Type": "Deluxe Room",
+    "PricePerNight": 80.00,
+    "CancellationFee": 2.00,
+    "Status": "Available"
+  },
+  {
+    "RoomNumber": 404,
+    "Type": "Suite Room",
+    "PricePerNight": 100.00,
+    "CancellationFee": 2.50,
+    "Status": "Available"
+  }
+]
