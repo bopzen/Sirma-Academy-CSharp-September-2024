@@ -1,4 +1,5 @@
-﻿using HotelRoomReservationSystem.Models;
+﻿using HotelRoomReservationSystem.Managers;
+using HotelRoomReservationSystem.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,12 @@ using System.Threading.Tasks;
 
 namespace HotelRoomReservationSystem
 {
-	public class Menu
+    public class Menu
 	{
         private static UserManager userManager = new UserManager();
 		private static User loggedInUser = null;
+
+		private static RoomManager roomManager = new RoomManager();
 
         public static void MainMenu()
 		{
@@ -191,12 +194,12 @@ namespace HotelRoomReservationSystem
                     Console.WriteLine($"Hello, {loggedInUser.Username}");
                 }
                 Console.WriteLine("View Rooms Menu");
-				Console.WriteLine("1. Single Room");
-				Console.WriteLine("2. Double Room");
-				Console.WriteLine("3. Deluxe Room");
-				Console.WriteLine("4. Suite");
 				Console.WriteLine("0. Back");
+				Console.WriteLine();
+				roomManager.ShowAllRoomTypes();
+
 				Console.Write("Choose an option: ");
+
 
 				if (!int.TryParse(Console.ReadLine(), out command))
 				{
@@ -212,30 +215,6 @@ namespace HotelRoomReservationSystem
 						{
 							return;
 						}
-					case 1:
-						{
-							Console.Clear();
-							Console.WriteLine("Single Room");
-						}
-						break;
-					case 2:
-						{
-							Console.Clear();
-							Console.WriteLine("Double Room");
-						}
-						break;
-					case 3:
-						{
-							Console.Clear();
-							Console.WriteLine("Deluxe Room");
-						}
-						break;
-					case 4:
-						{
-							Console.Clear();
-							Console.WriteLine("Suite");
-						}
-						break;
 					default:
 						{
 							Console.WriteLine("Enter valid option");

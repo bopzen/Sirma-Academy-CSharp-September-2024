@@ -6,14 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelRoomReservationSystem
+namespace HotelRoomReservationSystem.Managers
 {
     public class UserManager
     {
         private const string UserFilePath = @"..\..\..\data\users.json";
         List<User> Users = new List<User>();
 
-        public UserManager() 
+        public UserManager()
         {
             LoadUsersFromFile();
         }

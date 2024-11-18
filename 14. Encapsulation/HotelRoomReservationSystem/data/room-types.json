@@ -1,0 +1,48 @@
+[
+  {
+    "Name": "Single Room",
+    "MaxOccupancy": 1,
+    "Amenities": [
+      "Bed",
+      "Desk",
+      "TV",
+      "Wi-Fi"
+    ]
+  },
+  {
+    "Name": "Double Room",
+    "MaxOccupancy": 2,
+    "Amenities": [
+      "Two Beds",
+      "TV",
+      "Wi-Fi",
+      "Mini Fridge"
+    ]
+  },
+  {
+    "Name": "Deluxe Room",
+    "MaxOccupancy": 3,
+    "Amenities": [
+      "King Bed",
+      "TV",
+      "Wi-Fi",
+      "Mini Fridge",
+      "Room Service",
+      "Balcony"
+    ]
+  },
+  {
+    "Name": "Suite Room",
+    "MaxOccupancy": 4,
+    "Amenities": [
+      "King Bed",
+      "Living Area",
+      "TV",
+      "Wi-Fi",
+      "Mini Fridge",
+      "Room Service",
+      "Jacuzzi",
+      "Balcony"
+    ]
+  }
+]
