@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace HotelRoomReservationSystem.Models
 {
-	internal class RoomType
+	public class RoomType
 	{
+		public string Name { get; set; }
+		public string MaxOccupancy { get; set; }
+
+		public string Amenities { get; set; }
+
 	}
 }

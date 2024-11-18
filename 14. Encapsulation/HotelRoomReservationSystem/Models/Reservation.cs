@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace HotelRoomReservationSystem.Models
 {
-	internal class Reservation
+	public class Reservation
 	{
+		public int Id { get; set; }
+		public Room Room { get; set; }
+		public User User { get; set; }
+		public DateTime StartDate { get; set; }
+		public DateTime EndDate { get; set; }
+		public string ReservationStatus { get; set; }
 	}
 }
