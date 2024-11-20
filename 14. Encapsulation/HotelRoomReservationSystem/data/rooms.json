@@ -4,14 +4,14 @@
     "Type": "Single Room",
     "PricePerNight": 50.00,
     "CancellationFee": 1.00,
-    "Status": "Available"
+    "Status": "Booked"
   },
   {
     "RoomNumber": 102,
     "Type": "Double Room",
     "PricePerNight": 60.00,
     "CancellationFee": 1.50,
-    "Status": "Available"
+    "Status": "Booked"
   },
   {
     "RoomNumber": 103,

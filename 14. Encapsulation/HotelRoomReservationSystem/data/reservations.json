@@ -1,0 +1,14 @@
+[
+  {
+    "Id": 1,
+    "RoomNumber": 101,
+    "User": "bobby",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": 2,
+    "RoomNumber": 102,
+    "User": "bob",
+    "ReservationStatus": "Confirmed"
+  }
+]

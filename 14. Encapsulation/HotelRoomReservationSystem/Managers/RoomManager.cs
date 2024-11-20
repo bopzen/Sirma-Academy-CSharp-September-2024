@@ -39,6 +39,12 @@ namespace HotelRoomReservationSystem.Managers
             }
         }
 
+        private void SaveRoomsToFile()
+        {
+            var jsonData = JsonConvert.SerializeObject(Rooms, Formatting.Indented);
+            File.WriteAllText(RoomsFilePath, jsonData);
+        }
+
         public void ShowAllRoomTypes()
         {
             foreach (var roomType in RoomTypes)

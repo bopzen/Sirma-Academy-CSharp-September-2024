@@ -15,6 +15,9 @@ namespace HotelRoomReservationSystem
 
 		private static RoomManager roomManager = new RoomManager();
 
+		private static ReservationManager reservationManager = new ReservationManager();
+		
+
         public static void MainMenu()
 		{
             int command;
