@@ -261,8 +261,17 @@ namespace HotelRoomReservationSystem
 						}
 					case 1:
 						{
-							Console.Clear();
-							Console.WriteLine("Single Room");
+							Console.WriteLine("Available Single Rooms");
+							var availableRooms = roomManager.GetAvailableRoomsOfType("Single Room");
+							foreach (var room in availableRooms)
+							{
+								Console.WriteLine("-------------------------------");
+								Console.WriteLine($"Room Number: {room.RoomNumber}");
+								Console.WriteLine($"Room Type: {room.Type}");
+                                Console.WriteLine($"Price per Night: {room.PricePerNight}");
+                                Console.WriteLine($"Cancellation Fee: {room.CancellationFee}");
+                                Console.WriteLine($"Status: {room.Status}");
+                            }
 						}
 						break;
 					case 2:

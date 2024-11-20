@@ -55,5 +55,11 @@ namespace HotelRoomReservationSystem.Managers
                 Console.WriteLine();
             }
         }
+
+        public List<Room> GetAvailableRoomsOfType(string roomType)
+        {
+            var availableRooms = Rooms.Where(r => r.Type == roomType && r.Status == "Available").ToList();
+            return availableRooms;
+        }
     }
 }
