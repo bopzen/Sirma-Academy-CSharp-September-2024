@@ -32,5 +32,10 @@ namespace HotelRoomReservationSystem.Managers
             var jsonData = JsonConvert.SerializeObject(Reservations, Formatting.Indented);
             File.WriteAllText(ReservationsFilePath, jsonData);
         }
+
+        public void BookRoom(int roomNumber)
+        {
+
+        }
     }
 }

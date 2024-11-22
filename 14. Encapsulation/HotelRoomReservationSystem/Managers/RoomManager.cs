@@ -61,5 +61,31 @@ namespace HotelRoomReservationSystem.Managers
             var availableRooms = Rooms.Where(r => r.Type == roomType && r.Status == "Available").ToList();
             return availableRooms;
         }
+
+
+
+        public List<Room> PrintAvailableRoomsOfType(string roomType)
+        {
+            Console.WriteLine($"Available {roomType}s");
+            Console.WriteLine("-------------------------------");
+            var availableRooms = GetAvailableRoomsOfType(roomType);
+            if (availableRooms.Count > 0)
+            {
+                foreach (var room in availableRooms)
+                {
+                    Console.WriteLine($" Room Number: {room.RoomNumber}");
+                    Console.WriteLine($" Room Type: {room.Type}");
+                    Console.WriteLine($" Price per Night: {room.PricePerNight}");
+                    Console.WriteLine($" Cancellation Fee: {room.CancellationFee}");
+                    Console.WriteLine($" Status: {room.Status}");
+                    Console.WriteLine("-------------------------------");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"No available {roomType}");
+            }   
+            return availableRooms;
+        }
     }
 }
