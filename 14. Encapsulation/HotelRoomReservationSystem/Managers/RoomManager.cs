@@ -87,5 +87,13 @@ namespace HotelRoomReservationSystem.Managers
             }   
             return availableRooms;
         }
+
+        public void BookRoomByRoomNumber(int roomNumber)
+        {
+            Room room = Rooms.FirstOrDefault(x => x.RoomNumber == roomNumber);
+            room.Status = "Booked";
+            SaveRoomsToFile();
+            Console.WriteLine($"Room {room.RoomNumber} booked successfully!");
+        }
     }
 }

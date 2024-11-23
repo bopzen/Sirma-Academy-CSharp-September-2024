@@ -33,9 +33,11 @@ namespace HotelRoomReservationSystem.Managers
             File.WriteAllText(ReservationsFilePath, jsonData);
         }
 
-        public void BookRoom(int roomNumber)
+        public void CreateReservation(int roomNumber, string username)
         {
-
+            Reservation reservation = new Reservation(roomNumber, username);
+            Reservations.Add(reservation);
+            SaveReservationsToFile();
         }
     }
 }

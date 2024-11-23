@@ -1,14 +1,44 @@
 [
   {
-    "Id": 1,
+    "Id": "1",
     "RoomNumber": 101,
     "User": "bobby",
     "ReservationStatus": "Confirmed"
   },
   {
-    "Id": 2,
+    "Id": "2",
     "RoomNumber": 102,
     "User": "bob",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "f4f1e9f2-eba5-41f0-aa76-70c35e934b24",
+    "RoomNumber": 201,
+    "User": "bobby",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "0d37d444-519a-4055-91da-a9272583a31a",
+    "RoomNumber": 202,
+    "User": "bob",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "e475db7d-4ac1-476e-823b-543ac89f28b2",
+    "RoomNumber": 103,
+    "User": "bob",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "7b7238df-edaa-4464-bc60-3d807293c5e0",
+    "RoomNumber": 104,
+    "User": "bob",
+    "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "40ba16be-654a-4ab5-bfda-2e99eb4998fb",
+    "RoomNumber": 301,
+    "User": "bobby",
     "ReservationStatus": "Confirmed"
   }
 ]

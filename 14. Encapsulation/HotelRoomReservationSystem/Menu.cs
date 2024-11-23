@@ -262,72 +262,25 @@ namespace HotelRoomReservationSystem
 					case 1:
 						{
 							Console.Clear();
-							List<Room> availableRooms = roomManager.PrintAvailableRoomsOfType("Single Room");
-							if (availableRooms.Count > 0)
-							{
-								Console.WriteLine("1: Book Room 0: Back");
-                                Console.Write("Choose an option: ");
-                                if (!int.TryParse(Console.ReadLine(), out command))
-                                {
-                                    Console.WriteLine("Invalid input! Please enter a number between 0 and 1.");
-                                    Console.Write("Press any key to continue...");
-                                    Console.ReadKey();
-                                    continue;
-                                }
-								if (command == 1)
-								{
-									int roomNumber = availableRooms.FirstOrDefault().RoomNumber;
-									reservationManager.BookRoom(roomNumber);
-									Console.WriteLine("Booked");
-									Console.ReadKey();
-								}
-								else if (command == 0)
-								{
-									break;
-								}
-								else
-								{
-                                    Console.WriteLine("Invalid input! Please enter a number between 0 and 1.");
-                                    Console.Write("Press any key to continue...");
-                                    Console.ReadKey();
-                                    continue;
-                                }
-                            }
-							else
-							{
-                                Console.Write("Press any key to continue...");
-                                Console.ReadKey();
-                                Console.Clear();
-                            }
-                            
+							MakeReservationPerRoomTypeMenu("Single Room");
                         }
 						break;
 					case 2:
 						{
-							Console.Clear();
-                            roomManager.PrintAvailableRoomsOfType("Double Room");
-                            Console.Write("Press any key to continue...");
-                            Console.ReadKey();
                             Console.Clear();
+                            MakeReservationPerRoomTypeMenu("Double Room");
                         }
 						break;
 					case 3:
 						{
-							Console.Clear();
-                            roomManager.PrintAvailableRoomsOfType("Deluxe Room");
-                            Console.Write("Press any key to continue...");
-                            Console.ReadKey();
                             Console.Clear();
-
+                            MakeReservationPerRoomTypeMenu("Deluxe Room");
                         }
 						break;
 					case 4:
 						{
-							Console.Clear();
-                            roomManager.PrintAvailableRoomsOfType("Suite Room");
-                            Console.Write("Press any key to continue...");
-                            Console.ReadKey();
                             Console.Clear();
+                            MakeReservationPerRoomTypeMenu("Suite Room");
                         }
 						break;
 					default:
@@ -404,5 +357,59 @@ namespace HotelRoomReservationSystem
 				}
 			}
 		}
+
+		private static void MakeReservationPerRoomTypeMenu(string roomType)
+		{
+			int command;
+            List<Room> availableRooms = roomManager.PrintAvailableRoomsOfType(roomType);
+            if (availableRooms.Count > 0)
+            {
+                Console.WriteLine("1: Book Room 0: Back");
+                Console.Write("Choose an option: ");
+                if (!int.TryParse(Console.ReadLine(), out command))
+                {
+                    Console.WriteLine("Invalid input! Please enter a number between 0 and 1.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
+                    return;
+                }
+                if (command == 1)
+                {
+                    if (loggedInUser != null)
+                    {
+                        int roomNumber = availableRooms[0].RoomNumber;
+                        roomManager.BookRoomByRoomNumber(roomNumber);
+                        reservationManager.CreateReservation(roomNumber, loggedInUser.Username);
+                        Console.Write("Press any key to continue...");
+                        Console.ReadKey();
+                    }
+                    else
+                    {
+                        Console.WriteLine("You need to be logged in.");
+                        Console.Write("Press any key to continue...");
+                        Console.ReadKey();
+                    }
+
+                }
+                else if (command == 0)
+                {
+                    return;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input! Please enter a number between 0 and 1.");
+                    Console.Write("Press any key to continue...");
+                    Console.ReadKey();
+                    return;
+                }
+            }
+            else
+            {
+                Console.WriteLine("No available rooms.");
+                Console.Write("Press any key to continue...");
+                Console.ReadKey();
+                Console.Clear();
+            }
+        }
 	}
 }
