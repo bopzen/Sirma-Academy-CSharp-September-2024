@@ -8,8 +8,8 @@ namespace InventoryManagementSystem.Contracts
 {
     public interface ISellable
     {
-        void setPrice(double price);
-        double getPrice();
+        void SetPrice(double price);
+        double GetPrice();
 
     }
 }

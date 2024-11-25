@@ -9,7 +9,7 @@ namespace InventoryManagementSystem.Contracts
     public interface IItem
     {
         string GetDetails();
-        int GetValue();
-        string ShowDescription();
+        double CalculateValue();
+        void DisplayDescription();
     }
 }

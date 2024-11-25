@@ -8,7 +8,7 @@ namespace InventoryManagementSystem.Contracts
 {
     public interface ICategorizable
     {
-        void SetCategory();
+        void SetCategory(string category);
         string GetCategory();
     }
 }
