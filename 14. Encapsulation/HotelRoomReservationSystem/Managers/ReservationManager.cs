@@ -39,5 +39,29 @@ namespace HotelRoomReservationSystem.Managers
             Reservations.Add(reservation);
             SaveReservationsToFile();
         }
+
+        public List<Reservation> GetAllReservationsForUser(string userName)
+        {
+            var reservations = Reservations.Where(r => r.User == userName).ToList();
+            return reservations;
+        }
+
+        public int CancelReservation(string reservationNumber)
+        {
+            Reservation reservation = Reservations.FirstOrDefault(r => r.Id == reservationNumber);
+            if (reservation != null) 
+            {
+                reservation.ReservationStatus = "Cancelled";
+                SaveReservationsToFile();
+                Console.WriteLine($"Reservation number {reservation.Id} cancelled successfully");
+                return reservation.RoomNumber;
+            }
+            else
+            {
+                Console.WriteLine($"Reservation number {reservationNumber} not found");
+                return 0;
+            }
+            
+        }
     }
 }

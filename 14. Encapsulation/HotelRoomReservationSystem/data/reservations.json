@@ -3,7 +3,7 @@
     "Id": "1",
     "RoomNumber": 101,
     "User": "bobby",
-    "ReservationStatus": "Confirmed"
+    "ReservationStatus": "Cancelled"
   },
   {
     "Id": "2",
@@ -40,5 +40,11 @@
     "RoomNumber": 301,
     "User": "bobby",
     "ReservationStatus": "Confirmed"
+  },
+  {
+    "Id": "98ce998d-e623-4813-a55f-06d0e8b69c56",
+    "RoomNumber": 101,
+    "User": "bobby",
+    "ReservationStatus": "Cancelled"
   }
 ]

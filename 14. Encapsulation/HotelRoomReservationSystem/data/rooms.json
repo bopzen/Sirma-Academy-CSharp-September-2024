@@ -4,7 +4,7 @@
     "Type": "Single Room",
     "PricePerNight": 50.0,
     "CancellationFee": 1.0,
-    "Status": "Booked"
+    "Status": "Available"
   },
   {
     "RoomNumber": 102,

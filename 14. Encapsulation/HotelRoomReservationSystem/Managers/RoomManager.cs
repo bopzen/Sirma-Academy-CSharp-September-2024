@@ -95,5 +95,12 @@ namespace HotelRoomReservationSystem.Managers
             SaveRoomsToFile();
             Console.WriteLine($"Room {room.RoomNumber} booked successfully!");
         }
+
+        public void FreeRoomByRoomNumber(int roomNumber)
+        {
+            Room room = Rooms.FirstOrDefault(x => x.RoomNumber == roomNumber);
+            room.Status = "Available";
+            SaveRoomsToFile();
+        }
     }
 }

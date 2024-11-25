@@ -176,7 +176,18 @@ namespace HotelRoomReservationSystem
 						{
 							Console.Clear();
 							Console.WriteLine("Profile History Menu");
-						}
+							if (loggedInUser != null)
+							{
+                                ShowReservationsForUser(loggedInUser.Username);
+                            }
+							else
+							{
+								Console.WriteLine("You are not logged in.");
+							}
+                            Console.Write("Press any key to continue...");
+                            Console.ReadKey();
+							break;
+                        }
 						break;
 					default:
 						{
@@ -296,7 +307,7 @@ namespace HotelRoomReservationSystem
 		{
 			while (true)
 			{
-				int command;
+				string command;
 
 				Console.Clear();
                 if (loggedInUser != null)
@@ -304,61 +315,56 @@ namespace HotelRoomReservationSystem
                     Console.WriteLine($"Hello, {loggedInUser.Username}");
                 }
                 Console.WriteLine("Cancel Reservation Menu");
-				Console.WriteLine("1. Single Room");
-				Console.WriteLine("2. Double Room");
-				Console.WriteLine("3. Deluxe Room");
-				Console.WriteLine("4. Suite");
-				Console.WriteLine("0. Back");
-				Console.Write("Choose an option: ");
+				if (loggedInUser != null)
+				{
+                    ShowReservationsForUser(loggedInUser.Username);
+                    Console.Write("Enter reservation number: ");
 
-                if (!int.TryParse(Console.ReadLine(), out command))
-                {
-                    Console.WriteLine("Invalid input! Please enter a number between 0 and 4.");
+					command = Console.ReadLine();
+
+					int reservationRoomNumber = reservationManager.CancelReservation(command);
+					if (reservationRoomNumber != 0)
+					{
+						roomManager.FreeRoomByRoomNumber(reservationRoomNumber);
+                        Console.Write("Press any key to continue...");
+                        Console.ReadKey();
+						break;
+                    }
+					else
+					{
+                        Console.Write("Press any key to continue...");
+                        Console.ReadKey();
+						continue;
+                    }
+                }
+				else
+				{
+                    Console.WriteLine("You need to be logged in.");
                     Console.Write("Press any key to continue...");
                     Console.ReadKey();
-                    continue;
+                    break;
                 }
+				
 
-                switch (command)
-				{
-					case 0:
-						{
-							return;
-						}
-					case 1:
-						{
-							Console.Clear();
-							Console.WriteLine("Single Room");
-						}
-						break;
-					case 2:
-						{
-							Console.Clear();
-							Console.WriteLine("Double Room");
-						}
-						break;
-					case 3:
-						{
-							Console.Clear();
-							Console.WriteLine("Deluxe Room");
-						}
-						break;
-					case 4:
-						{
-							Console.Clear();
-							Console.WriteLine("Suite");
-						}
-						break;
-					default:
-						{
-							Console.WriteLine("Enter valid option");
-						}
-						break;
-				}
 			}
 		}
 
-		private static void MakeReservationPerRoomTypeMenu(string roomType)
+        private static void ShowReservationsForUser(string username)
+        {
+            var userReservations = reservationManager.GetAllReservationsForUser(username);
+
+			foreach (var reservation in userReservations)
+			{
+                Console.WriteLine("-------------------------------");
+                Console.WriteLine($"Reservation ID: {reservation.Id}");
+				Console.WriteLine($"Room Number: {reservation.RoomNumber}");
+				Console.WriteLine($"User: {reservation.User}");
+				Console.WriteLine($"Status: {reservation.ReservationStatus}");			
+			}
+            Console.WriteLine("-------------------------------");
+        }
+
+        private static void MakeReservationPerRoomTypeMenu(string roomType)
 		{
 			int command;
             List<Room> availableRooms = roomManager.PrintAvailableRoomsOfType(roomType);
