@@ -8,7 +8,7 @@ namespace InventoryManagementSystem.Contracts
 {
     public interface IBreakable
     {
-        bool IsBreakable();
+        bool IsItemBreakable();
         void HandleBreakage();
     }
 }

@@ -8,7 +8,7 @@ namespace InventoryManagementSystem.Contracts
 {
     public interface IPerishable
     {
-        bool IsPerishable();
+        bool IsItemPerishable();
         void HandleExpiration();
     }
 }

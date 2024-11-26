@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace InventoryManagementSystem.Abstractions
 {
-    public class AbstractItem : IItem, ICategorizable, IBreakable, IPerishable, ISellable
-    {
-        public int Id { get; set; }
+    public abstract class AbstractItem : IItem, ICategorizable, IBreakable, IPerishable, ISellable
+    {   
         public string Name { get; set; }
         public string Description { get; set; }
         public string Category { get; set; }
@@ -29,7 +28,7 @@ namespace InventoryManagementSystem.Abstractions
         }
         public string GetDetails()
         {
-            return $"Item ID: {Id}, Name: {Name}, Description: {Description}, Category: {Category}, Price: {Price}";
+            return $"Name: {Name}, Description: {Description}, Category: {Category}, Price: {Price}";
         }
 
         public string GetCategory()
@@ -51,22 +50,24 @@ namespace InventoryManagementSystem.Abstractions
             Price = price;
         }
 
-        public bool IsBreakable()
+        public bool IsItemBreakable()
         {
             return IsBreakable;
         }
         public void HandleBreakage()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Name} has been marked as broken.");
         }
-        public bool IsPerishable()
+        public bool IsItemPerishable()
         {
-            throw new NotImplementedException();
+            return IsPerishable;
         }
 
         public void HandleExpiration()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Name} has expired and needs to be removed.");  
         }
+
+        public abstract string GetItemDetails();
     }
 }
