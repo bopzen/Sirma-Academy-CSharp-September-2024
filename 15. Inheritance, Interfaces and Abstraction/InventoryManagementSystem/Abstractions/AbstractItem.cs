@@ -15,7 +15,16 @@ namespace InventoryManagementSystem.Abstractions
         public double Price { get; set; }
         public bool IsBreakable { get; set; }
         public bool IsPerishable { get; set; }
-        public bool IsSellable { get; set; }
+
+        public AbstractItem(string name, string description, string category, double price, bool isBreakable, bool isPerishable)
+        {
+            Name = name;
+            Description = description;
+            Category = category;
+            Price = price;
+            IsBreakable = isBreakable;
+            IsPerishable = isPerishable;
+        }
 
         public double CalculateValue()
         {
@@ -54,7 +63,7 @@ namespace InventoryManagementSystem.Abstractions
         {
             return IsBreakable;
         }
-        public void HandleBreakage()
+        public virtual void HandleBreakage()
         {
             Console.WriteLine($"{Name} has been marked as broken.");
         }
@@ -63,7 +72,7 @@ namespace InventoryManagementSystem.Abstractions
             return IsPerishable;
         }
 
-        public void HandleExpiration()
+        public virtual void HandleExpiration()
         {
             Console.WriteLine($"{Name} has expired and needs to be removed.");  
         }
