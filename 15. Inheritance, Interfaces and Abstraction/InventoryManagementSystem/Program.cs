@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //TODO the rest of the task when I have more time
         }
     }
 }
