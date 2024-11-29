@@ -15,6 +15,8 @@
             {
                 Console.WriteLine($"{shape.GetType().Name} has area {shape.GetArea():F2}");
             }
+
+            //TODO Extensions when I have more time
         }
     }
 }
