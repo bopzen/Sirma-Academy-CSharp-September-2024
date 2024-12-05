@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
+            while (true)
+            {
+                string command = Console.ReadLine();
+                if (command == "end")
+                {
+                    break;
+                }
 
+
+            }
         }
     }
 }

@@ -10,6 +10,11 @@ namespace _10CustomList
     {
         private readonly List<T> _list;
 
+        public CustomList()
+        {
+            _list = new List<T>();
+        }
+
         public void Add(T element)
         {
             _list.Add(element);
@@ -43,6 +48,16 @@ namespace _10CustomList
                 }
             }
             return counter;
+        }
+
+        public T Getmax()
+        {
+            return _list.Max();
+        }
+
+        public T GetMin()
+        {
+            return _list.Min();
         }
     }
 }
