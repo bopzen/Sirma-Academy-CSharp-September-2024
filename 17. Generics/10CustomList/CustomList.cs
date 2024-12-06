@@ -22,9 +22,13 @@ namespace _10CustomList
 
         public T Remove(int index)
         {
-            T element = _list[index];
-            _list.RemoveAt(index);
-            return element;
+            if (index >=0 && index < _list.Count)
+            {
+                T element = _list[index];
+                _list.RemoveAt(index);
+                return element;
+            }
+            throw new IndexOutOfRangeException();
         }
 
         public bool Contains(T element)
@@ -34,7 +38,11 @@ namespace _10CustomList
 
         public void Swap(int indexOne, int indexTwo)
         {
-            (_list[indexTwo], _list[indexOne]) = (_list[indexOne], _list[indexTwo]);
+            if (indexOne >=0 && indexOne < _list.Count && indexTwo >=0 && indexTwo < _list.Count)
+            {
+                (_list[indexTwo], _list[indexOne]) = (_list[indexOne], _list[indexTwo]);
+            }
+            
         }
 
         public int CountGreaterThan(T element)
@@ -50,7 +58,7 @@ namespace _10CustomList
             return counter;
         }
 
-        public T Getmax()
+        public T GetMax()
         {
             return _list.Max();
         }
@@ -58,6 +66,14 @@ namespace _10CustomList
         public T GetMin()
         {
             return _list.Min();
+        }
+
+        public void Print()
+        {
+            foreach (T element in _list)
+            {
+                Console.WriteLine(element);
+            }
         }
     }
 }
