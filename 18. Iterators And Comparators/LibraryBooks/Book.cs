@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibraryBooks
 {
-    public class Book
+    public class Book : IComparable<Book>
     {
         public string Title { get; set; }
         public int Year { get; set; }
@@ -34,6 +34,16 @@ namespace LibraryBooks
         {
             string authors = Authors.Count > 0 ? string.Join(", ", Authors) : "No authors";
             return $"Title: {Title}, Year: {Year}, Authors: {authors}";
+        }
+
+        public int CompareTo(Book? other)
+        {
+            int result = this.Title.CompareTo(other.Title);
+            if (result == 0)
+            {
+                result = this.Year.CompareTo(other.Year);
+            }
+            return result;
         }
     }
 }

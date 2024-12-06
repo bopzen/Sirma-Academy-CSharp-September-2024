@@ -14,6 +14,8 @@
             {
                 Console.WriteLine(book);
             }
+
+            Console.WriteLine(book1.CompareTo(book2));
         }
     }
 }
