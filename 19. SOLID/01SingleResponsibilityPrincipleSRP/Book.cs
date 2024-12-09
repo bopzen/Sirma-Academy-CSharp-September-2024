@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _01SingleResponsibilityPrincipleSRP
+{
+    public class Book
+    {
+        public string Title { get; set; }
+        public string Author { get; set; }
+
+        public Book(string title, string author) 
+        { 
+            Title = title;
+            Author = author;
+        }
+
+        public string GetBookSummary()
+        {
+            return Title + " by " + Author;
+        }
+    }
+
+}
