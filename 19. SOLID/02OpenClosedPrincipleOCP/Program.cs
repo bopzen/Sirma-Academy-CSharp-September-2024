@@ -11,6 +11,13 @@
             ILogger fileLogger = new FileLogger(@"..\..\..\log.txt");
             var fileLoggingService = new Logger(fileLogger);
             fileLoggingService.LogMessage("Logging to file.");
+
+
+            DiscountCalculator studentCalculator = new DiscountCalculator(new StudentDiscount());
+            Console.WriteLine($"Student discount: {studentCalculator.Calculate(100)}");
+
+            DiscountCalculator seniorCalculator = new DiscountCalculator(new SeniorDiscount());
+            Console.WriteLine($"Senior discount: {seniorCalculator.Calculate(100)}");
         }
     }
 }
