@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01SingleResponsibilityPrincipleSRP", "01SingleResponsibilityPrincipleSRP\01SingleResponsibilityPrincipleSRP.csproj", "{0780134A-E5AE-4745-BDBD-E0B1A5212E59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02OpenClosedPrincipleOCP", "02OpenClosedPrincipleOCP\02OpenClosedPrincipleOCP.csproj", "{E94C4BFC-6D62-4875-9116-359CE843246A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02OpenClosedPrincipleOCP", "02OpenClosedPrincipleOCP\02OpenClosedPrincipleOCP.csproj", "{E94C4BFC-6D62-4875-9116-359CE843246A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03LiskovSubstitutionPrincipleLSP", "03LiskovSubstitutionPrincipleLSP\03LiskovSubstitutionPrincipleLSP.csproj", "{3AEA057E-6990-4DBA-9B09-E402B9A24258}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E94C4BFC-6D62-4875-9116-359CE843246A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E94C4BFC-6D62-4875-9116-359CE843246A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E94C4BFC-6D62-4875-9116-359CE843246A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEA057E-6990-4DBA-9B09-E402B9A24258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEA057E-6990-4DBA-9B09-E402B9A24258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEA057E-6990-4DBA-9B09-E402B9A24258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEA057E-6990-4DBA-9B09-E402B9A24258}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
